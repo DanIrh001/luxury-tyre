@@ -1,6 +1,7 @@
 import { Phone, MessageCircle, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import logo from "@/assets/john-tyres-logo.jpeg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,15 +11,9 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-gold rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">JT</span>
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-foreground tracking-tight">JOHN TYRES</h1>
-              <p className="text-xs text-muted-foreground">Premium Tyres Lagos</p>
-            </div>
-          </div>
+          <a href="/" className="flex items-center">
+            <img src={logo} alt="John Tyres Nigeria" className="h-12 w-auto" />
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
