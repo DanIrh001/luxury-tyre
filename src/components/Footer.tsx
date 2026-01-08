@@ -21,7 +21,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a 
-                href="https://wa.me/2349095060101" 
+                href="https://wa.me/2349015464002" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -29,7 +29,7 @@ const Footer = () => {
                 <MessageCircle className="w-5 h-5" />
               </a>
               <a 
-                href="tel:09095060101"
+                href="tel:09015464002"
                 className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Phone className="w-5 h-5" />
@@ -53,15 +53,19 @@ const Footer = () => {
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <a href="tel:09095060101" className="hover:text-primary transition-colors">09095060101</a>
+                <a href="tel:09015464002" className="hover:text-primary transition-colors">0901 546 4002</a>
               </li>
               <li className="flex items-center gap-2">
                 <MessageCircle className="w-4 h-4 text-primary" />
-                <a href="https://wa.me/2349095060101" className="hover:text-primary transition-colors">WhatsApp</a>
+                <a href="https://wa.me/2349015464002" className="hover:text-primary transition-colors">WhatsApp</a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-1" />
-                <span>Lagos, Nigeria</span>
+                <span>164 Herbert Macaulay Wy, off MRS fueling station, Yaba, Lagos</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Mail className="w-4 h-4 text-primary" />
+                <span>Open 24 Hours</span>
               </li>
             </ul>
           </div>

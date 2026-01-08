@@ -19,13 +19,13 @@ const CTASection = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button variant="hero" size="xl" asChild>
-              <a href="tel:09095060101">
+              <a href="tel:09015464002">
                 <Phone className="w-5 h-5" />
-                Call: 09095060101
+                Call: 0901 546 4002
               </a>
             </Button>
             <Button variant="whatsapp" size="xl" asChild>
-              <a href="https://wa.me/2349095060101" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/2349015464002" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-5 h-5" />
                 WhatsApp Now
               </a>
@@ -33,7 +33,7 @@ const CTASection = () => {
           </div>
 
           <p className="text-sm text-muted-foreground">
-            Available Monday - Saturday, 8AM - 6PM
+            Open 24 Hours · In-store Shopping · Pick-up · Delivery
           </p>
         </div>
       </div>
