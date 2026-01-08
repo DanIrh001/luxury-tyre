@@ -36,7 +36,7 @@ const Header = () => {
               </a>
             </Button>
             <Button variant="whatsapp" size="sm" asChild>
-              <a href="https://wa.me/2349015464002" target="_blank" rel="noopener noreferrer">
+              <a href="http://wa.me/09015464002" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-4 h-4" />
                 WhatsApp
               </a>
@@ -68,7 +68,7 @@ const Header = () => {
                 </a>
               </Button>
               <Button variant="whatsapp" size="sm" asChild className="w-full">
-                <a href="https://wa.me/2349015464002" target="_blank" rel="noopener noreferrer">
+                <a href="http://wa.me/09015464002" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="w-4 h-4" />
                   WhatsApp Now
                 </a>
