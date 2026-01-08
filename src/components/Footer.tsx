@@ -21,7 +21,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a 
-                href="https://wa.me/2349015464002" 
+                href="http://wa.me/09015464002"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -57,7 +57,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <MessageCircle className="w-4 h-4 text-primary" />
-                <a href="https://wa.me/2349015464002" className="hover:text-primary transition-colors">WhatsApp</a>
+                <a href="http://wa.me/09015464002" className="hover:text-primary transition-colors">WhatsApp</a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-1" />
