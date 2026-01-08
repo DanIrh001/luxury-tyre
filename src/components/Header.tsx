@@ -30,13 +30,13 @@ const Header = () => {
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-3">
             <Button variant="heroOutline" size="sm" asChild>
-              <a href="tel:09095060101">
+              <a href="tel:09015464002">
                 <Phone className="w-4 h-4" />
-                09095060101
+                0901 546 4002
               </a>
             </Button>
             <Button variant="whatsapp" size="sm" asChild>
-              <a href="https://wa.me/2349095060101" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/2349015464002" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-4 h-4" />
                 WhatsApp
               </a>
@@ -62,13 +62,13 @@ const Header = () => {
             </nav>
             <div className="flex flex-col gap-2">
               <Button variant="heroOutline" size="sm" asChild className="w-full">
-                <a href="tel:09095060101">
+                <a href="tel:09015464002">
                   <Phone className="w-4 h-4" />
-                  09095060101
+                  0901 546 4002
                 </a>
               </Button>
               <Button variant="whatsapp" size="sm" asChild className="w-full">
-                <a href="https://wa.me/2349095060101" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/2349015464002" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="w-4 h-4" />
                   WhatsApp Now
                 </a>
