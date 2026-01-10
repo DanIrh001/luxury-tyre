@@ -1,18 +1,14 @@
 import { Phone, MessageCircle, MapPin, Mail } from "lucide-react";
+import logo from "@/assets/john-tyres-logo.jpeg";
+
 const Footer = () => {
   return <footer className="bg-card border-t border-border py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-gold rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">JT</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-foreground">JOHN TYRES</h3>
-                <p className="text-xs text-muted-foreground">Premium Tyres Lagos</p>
-              </div>
+            <div className="mb-4">
+              <img src={logo} alt="John Tyres Nigeria" className="h-12 w-auto" />
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
               Lagos' most trusted tyre dealer. We supply 100% original tyres from top global brands with swift delivery across Lagos Mainland and Island.
